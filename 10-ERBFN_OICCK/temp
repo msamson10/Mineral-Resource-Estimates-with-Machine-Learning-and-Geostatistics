@@ -1,0 +1,22 @@
+Parameters for VarSim
+*********************
+
+START OF PARAMETERS:
+../data/lithology.dat        -file with lithology information
+0   7                        -   lithology column (0=not used), code
+./backtr/backtr_UDDH_5.out             -file with data
+1   3                -   number of variables, column numbers
+-1.0e21     1.0e21    -   trimming limits
+./vargs/varsim_reals_OICCK+ML_5.out      -output file for variograms of realizations
+./vargs/varsim_avg_OICCK+ML_5.out        -output file for average variogram
+50 5.0 10.0 
+50 5.0 10.0 
+25 5.0 10.0
+1                  -number of realizations
+3  100                 -number of directions, number of lags
+1  0  0              -ixd(1),iyd(1),izd(1)
+0  1  0              -ixd(2),iyd(2),izd(2)
+0  0  1              -ixd(2),iyd(2),izd(2)
+0                     -standardize sill? (0=no, 1=yes)
+1                     -number of variograms
+1   1   1             -tail variable, head variable, variogram type

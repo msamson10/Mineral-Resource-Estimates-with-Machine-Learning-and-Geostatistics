@@ -1,0 +1,13 @@
+kt3dn Summary Statistics
+
+Blocks estimated       =    62105
+Estimate average       = 0.69369517E-01
+Estimate variance      =  1.1796678    
+Block covariance       =  1.0000000    
+Avg data for est       =  50.000000    
+Avg kriging var        = 0.28024727    
+Avg kriging eff (DK)   = 0.71975273    
+Avg slope of reg       =  0.0000000    
+Avg GSK variance       = 0.75551056E-01
+Avg kriging eff (JD/CD)= 0.26221008    
+  WARNING: Encountered a location with an equidistant nearest neighbour

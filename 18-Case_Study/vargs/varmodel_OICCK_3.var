@@ -1,0 +1,5 @@
+  2       0.01000    -nst, nugget effect
+  1       0.21300      80.00000     -18.07669     -15.50704    -it,cc,azm,dip,tilt (ang1,ang2,ang3)
+        365.09000         11.17000          8.40000    -a_hmax, a_hmin, a_vert (ranges)
+  1       0.77700      80.00000      23.73538      13.38853    -it,cc,azm,dip,tilt (ang1,ang2,ang3)
+        371.01000         66.36000        934.87000    -a_hmax, a_hmin, a_vert (ranges)

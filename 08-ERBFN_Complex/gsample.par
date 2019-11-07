@@ -1,0 +1,26 @@
+Parameters for gsample V2.000
+*********************************
+
+START OF PARAMETERS:
+1                            - Number of files to sample
+dataflpd.out            - File with first grid
+1  4                        - Number of variables and columns
+1                            - Realization to sample
+50 5.0 10.0 
+50 5.0 10.0 
+25 5.0 10.0
+0                            - Sampling spacing option (0=regular, 1=random)
+80  80                       -  If 0, spacing in X, Y
+45  45                     -  If 0, collar of the first sample, X and Y (inside sampling grid)
+80  69069                    -  If 1, number of drill holes and seed number
+0  90                        - Azimuth and dip
+10                            - Sample spacing downhole
+1                          - Starting drill hole ID for new drills
+2                            - Number of decimal places (coordinates precision, up to 6)
+5   495                       - Sampling grid: xmin, xmax
+5   495                       -                ymin, ymax
+5   245                       -                zmin, zmax
+dhs.out        - Output file with new drill holes
+0                            - Output keyout file? (0=no, 1=yes)
+0                            -  If keyout (0=input grid inside sampling grid, 1=input blocks with assays)
+keyout.out         - Keyout file

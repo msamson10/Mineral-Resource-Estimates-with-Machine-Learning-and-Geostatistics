@@ -1,0 +1,35 @@
+Parameters for KT3DN
+********************
+START OF PARAMETERS:
+./data/data_train_4.dat             -file with data
+0  1 2 3 4  0                 -  columns for DH,X,Y,Z,var,sec var
+-998.0    1.0e21                 -  trimming limits
+0                                -option: 0=grid, 1=cross, 2=jackknife
+xvk.dat                          -file with jackknife data
+1   2   0    3    0              -   columns for X,Y,Z,vr and sec var
+kt3dn_dataspacing.out            -data spacing analysis output file (see note)
+0    15.0                        -  number to search (0 for no dataspacing analysis, rec. 10 or 20) and composite length
+0    100   0                     -debugging level: 0,3,5,10; max data for GSKV;output total weight of each data?(0=no,1=yes)
+kt3dn.dbg-nkt3dn.sum             -file for debugging output (see note)
+./predictions/kt3dn_4.out                        -file for kriged output (see GSB note)
+125 34407.5 15.0 
+80 27407.5 15.0 
+40 607.5 15.0
+5    5      5                    -x,y and z block discretization
+8    100    12    1               -min, max data for kriging,upper max for ASO,ASO incr
+90      0                         -max per octant, max per drillhole (0-> not used)
+1000.0  1000.0  1000.0              -maximum search radii
+100.0   0   0.0                 -angles for search ellipsoid
+0                                -0=SK,1=OK,2=LVM(resid),3=LVM((1-w)*m(u))),4=colo,5=exdrift,6=ICCK
+0.180 0.6  0.8                  -  mean (if 0,4,5,6), corr. (if 4 or 6), var. reduction factor (if 4)
+0 0 0 0 0 0 0 0 0                -drift: x,y,z,xx,yy,zz,xy,xz,zy
+0                                -0, variable; 1, estimate trend
+extdrift.out                     -gridded file with drift/mean
+4                                -  column number in gridded file
+key_out.out                       -gridded file with keyout (see note)
+0    1                           -  column (0 if no keyout) and value to keep
+2    0.01              -  nst, nugget effect
+1    0.350000000   100.0   -10.0   0.0   - it,cc,ang1,ang2,ang3
+45    45    30       - a_hmax, a_hmin, a_vert
+1    0.640000000   100.0   -10.0   0.0   - it,cc,ang1,ang2,ang3
+380    340    340       - a_hmax, a_hmin, a_vert

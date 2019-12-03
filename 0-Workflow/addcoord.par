@@ -1,0 +1,11 @@
+Parameters for ADDCOORD
+***********************
+
+START OF PARAMETERS:
+sgsim.out                         -file with data
+addcoord.out                      -file for output
+1                                 -realization number
+50 5.0 10.0 
+50 5.0 10.0 
+1 0.5 1.0
+3 3 6                            -decimals for x, y, z (-1=exclude)
